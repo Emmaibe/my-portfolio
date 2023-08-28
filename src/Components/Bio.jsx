@@ -38,7 +38,7 @@ function Bio() {
                     
                     <div class="bio-button">
                         <div class="bg-clr-neutral-300"><img src="images/Group 3.svg" alt="Arrow Pointer Button" class="arrow-down"></div>
-                        <button className="bg-clr-neutral-200 clr-neutral-100" buttonName = "ABOUT ME" />
+                        <Button className="bg-clr-neutral-200 clr-neutral-100" buttonName = "ABOUT ME" />
                     </div>
                 </section>
 
@@ -66,7 +66,7 @@ function Bio() {
                             I’d love you to check out my work.
                         </p>
 
-                        <button buttonName = "GO TO PORTFOLIO" />
+                        <Button buttonName = "GO TO PORTFOLIO" />
                     </div>
                 </article>
 
@@ -79,7 +79,7 @@ function Bio() {
                         <img src="images/Rectangle Copy 2.svg" alt="straight Line">
                     </div>
 
-                    <button buttonName = "CONTACT ME" />
+                    <Button buttonName = "CONTACT ME" />
                 </section>
             </main>
 
