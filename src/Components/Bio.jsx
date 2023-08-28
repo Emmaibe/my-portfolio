@@ -1,3 +1,5 @@
+import Button from "../States/Button";
+
 function Bio() {
     return (
         <body>
@@ -36,7 +38,7 @@ function Bio() {
                     
                     <div class="bio-button">
                         <div class="bg-clr-neutral-300"><img src="images/Group 3.svg" alt="Arrow Pointer Button" class="arrow-down"></div>
-                        <button class="bg-clr-neutral-200 clr-neutral-100">ABOUT ME</button>
+                        <button className="bg-clr-neutral-200 clr-neutral-100" buttonName = "ABOUT ME" />
                     </div>
                 </section>
 
@@ -64,9 +66,7 @@ function Bio() {
                             I’d love you to check out my work.
                         </p>
 
-                        <button>
-                            GO TO PORTFOLIO
-                        </button>
+                        <button buttonName = "GO TO PORTFOLIO" />
                     </div>
                 </article>
 
@@ -79,9 +79,7 @@ function Bio() {
                         <img src="images/Rectangle Copy 2.svg" alt="straight Line">
                     </div>
 
-                    <button>
-                        CONTACT ME
-                    </button>
+                    <button buttonName = "CONTACT ME" />
                 </section>
             </main>
 
